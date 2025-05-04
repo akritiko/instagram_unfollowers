@@ -264,6 +264,21 @@ function generateHTML(unfollowers) {
       color: #6c757d;
       text-align: center;
     }
+    .kofi-button {
+      display: inline-block;
+      padding: 5px 15px;
+      background-color: #29abe0;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-left: 15px;
+    }
+    .kofi-button:hover {
+      background-color: #2185b0;
+      text-decoration: none !important;
+    }
   </style>
 </head>
 <body>
@@ -289,10 +304,8 @@ function generateHTML(unfollowers) {
               <div>
                 <i class="bi bi-info-circle-fill me-2"></i>
                 These are the accounts you follow that don't follow you back.
-              </div>
-              <div>
-                <a href="https://ko-fi.com/{YOUR_KO-FI_USER_CODE}" target="_blank">
-                  <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" />
+                <a href="https://ko-fi.com/V7V31L6V4" target="_blank" class="kofi-button">
+                  <i class="bi bi-cup-hot-fill me-1"></i>Support me on Ko-fi
                 </a>
               </div>
             </div>

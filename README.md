@@ -2,8 +2,6 @@
 
 A secure, client-side web application that helps you discover which Instagram accounts you follow that don't follow you back.
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V31L6V4)
-
 ## 🔍 Overview
 
 Instagram Unfollowers Finder is a privacy-focused web tool that analyzes your Instagram following/followers data to identify accounts that don't follow you back. The tool runs entirely in your browser - no data is sent to any server, ensuring your privacy.
