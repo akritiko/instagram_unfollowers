@@ -273,7 +273,7 @@ function generateHTML(unfollowers) {
         <div class="col">
           <div class="page-header d-flex justify-content-between align-items-center">
             <h1 class="page-title">
-              <i class="bi bi-instagram me-2"></i>
+              <i class="bi bi-instagram header-icon"></i>
               Instagram Unfollowers
               <span class="badge bg-secondary ms-2 badge-count">${unfollowerCount}</span>
             </h1>
@@ -291,7 +291,7 @@ function generateHTML(unfollowers) {
                 These are the accounts you follow that don't follow you back.
               </div>
               <div>
-                <a href="https://ko-fi.com/V7V31L6V4" target="_blank">
+                <a href="https://ko-fi.com/{YOUR_KO-FI_USER_CODE}" target="_blank">
                   <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" />
                 </a>
               </div>
@@ -332,7 +332,7 @@ function generateHTML(unfollowers) {
     
     <footer class="app-footer">
       <p>Instagram Unfollowers Finder &copy; 2025 is created by <a href="https://linkedin.com/in/apostoloskritikos" target="_blank" rel="noopener">Apostolos Kritikos</a>.</p>
-      <p>This project is not endorsed nor affiliated with Instagram or Meta in any way.</p>
+      <p>This project is not endorsed by nor affiliated with Instagram or Meta in any way.</p>
     </footer>
   </div>
 
