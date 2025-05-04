@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Unfollowers Finder</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="mb-4 pb-2 border-bottom">
+      <h1 class="h3 mb-0">
+        <i class="bi bi-instagram header-icon"></i>
+        Instagram Unfollowers Finder
+      </h1>
+    </header>
+    
+    <div class="alert alert-info mb-4">
+      <h5 class="alert-heading"><i class="bi bi-info-circle-fill me-2"></i>Instructions</h5>
+      <ol class="mb-0">
+        <li><a href="https://accountscenter.instagram.com/info_and_permissions/dyi/" target="_blank" rel="noopener">Download your information from your Instagram Account Center.</a></li>
+        <li>Choose Followers and Following information for all time and .html format.</li>
+        <li>Once the download is ready, Instagram will inform you with an e-mail.</li>
+        <li>Download the data (zip format) and unzip it.</li>
+        <li>Go to the unzipped folder and check for "following.html" and "followers_1.html" files.</li>
+        <li>Upload both files below.</li>
+      </ol>
+    </div>
+    
+    <div class="row mb-4">
+      <div class="col-md-6 mb-3">
+        <label for="followingFile" class="form-label fw-bold">Upload "following.html":</label>
+        <div class="file-input-container">
+          <i class="bi bi-file-earmark-code mb-3 file-icon"></i>
+          <input class="form-control" type="file" id="followingFile" accept=".html,.htm">
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <label for="followersFile" class="form-label fw-bold">Upload "followers_1.html":</label>
+        <div class="file-input-container">
+          <i class="bi bi-file-earmark-code mb-3 file-icon"></i>
+          <input class="form-control" type="file" id="followersFile" accept=".html,.htm">
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mb-4">
+      <button id="processButton" class="btn btn-primary btn-lg submit-btn">
+        <i class="bi bi-search me-2"></i>Find Unfollowers
+      </button>
+    </div>
+    
+    <div class="output mt-4">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="loader"></div>
+        <div class="output-status"></div>
+      </div>
+    </div>
+    
+    <div class="alert alert-warning mt-4">
+      <div class="d-flex align-items-center">
+        <i class="bi bi-shield-lock security-icon"></i>
+        <div>
+          <strong>Data security:</strong> Please note that this application does not keep any of the files you share with it on our servers. This includes both followers and following input files and the resulting output file with the unfollowers.
+        </div>
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <p>Instagram Unfollowers Finder &copy; 2025 is created by <a href="https://linkedin.com/in/apostoloskritikos" target="_blank" rel="noopener">Apostolos Kritikos</a>.</p>
+      <p>This project is not endorsed nor affiliated with Instagram or Meta in any way.</p>
+    </footer>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
