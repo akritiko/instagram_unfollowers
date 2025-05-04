@@ -285,8 +285,17 @@ function generateHTML(unfollowers) {
       <div class="row">
         <div class="col-12">
           <div class="alert alert-primary" role="alert">
-            <i class="bi bi-info-circle-fill me-2"></i>
-            These are the accounts you follow that don't follow you back.
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <i class="bi bi-info-circle-fill me-2"></i>
+                These are the accounts you follow that don't follow you back.
+              </div>
+              <div>
+                <a href="https://ko-fi.com/V7V31L6V4" target="_blank">
+                  <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

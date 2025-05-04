@@ -2,7 +2,7 @@
 
 A secure, client-side web application that helps you discover which Instagram accounts you follow that don't follow you back.
 
-![Instagram Unfollowers Finder](https://img.shields.io/badge/Instagram-Unfollowers%20Finder-E4405F?style=for-the-badge&logo=instagram&logoColor=white)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V31L6V4)
 
 ## 🔍 Overview
 
@@ -16,6 +16,7 @@ Instagram Unfollowers Finder is a privacy-focused web tool that analyzes your In
 - **Beautiful Interface**: Clean, Instagram-inspired design
 - **Searchable Results**: Easily search through your unfollowers list
 - **Mobile-Friendly**: Works great on both desktop and mobile devices
+- **Support the Project**: Ko-fi support button integrated in both the main interface and results page
 
 ## 🚀 How to Use
 
@@ -96,3 +97,7 @@ Created by [Apostolos Kritikos](https://linkedin.com/in/apostoloskritikos)
 ---
 
 If you find this tool useful, please consider giving it a star on GitHub! ⭐ 
+
+You can also support this project on Ko-fi. Your support helps maintain and improve this tool:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V31L6V4) 
